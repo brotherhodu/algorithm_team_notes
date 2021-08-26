@@ -16,6 +16,7 @@ input_data = sys.stdin.readline().rstrip()
 print(input_data)
 # sys 라이브러리 사용할 때는 한 줄 입력받고 나서 rstrip() 함수를 꼭 호출해야 readline() 입력 후 엔터가 줄 바꿈 기호로 입력되지 않고 공백 문자를 제거할 수 있다. 
 
+<<<<<<< HEAD
 # 2차원 리스트로 맵 정보를 입력받기
 array = []
 for i in range(n):
@@ -23,3 +24,9 @@ for i in range(n):
 
 # 행(Row)이 3개인 2차원 리스트로 인접 리스트 표현
 graph = [[] for _ in range(3)]
+=======
+# 2차원의 전체 맵 정보를 입력받기
+array = []
+for i in range(n):
+  array.append(list(map(int, input().split())))
+>>>>>>> d0a0026ad993ccee81ba63ee623f68e2f59c659b
